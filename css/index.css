@@ -31,6 +31,79 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+header img {
+    width: 20%;
+}
+
+#main-nav div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+}
+#main-nav div a {
+    display: inline-block;
+    width: 15%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+section#banner-img img {
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+#b1 {
+    background-color: teal;
+}
+
+#b2 {
+    background-color: gold;
+}
+
+#b3 {
+    background-color: cadetblue;
+}
+
+#b4 {
+    background-color: coral;
+}
+
+#b5 {
+    background-color: crimson;
+}
+
+#b6 {
+    background-color: forestgreen;
+}
+
+#b7 {
+    background-color: darkorchid;
+}
+
+#b8 {
+    background-color: hotpink;
+}
+
+#b9 {
+    background-color: indigo;
+}
+
+#b10 {
+    background-color: dodgerblue;
+}
+
 ol, ul {
 	list-style: none;
 }
