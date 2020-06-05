@@ -39,10 +39,16 @@ Edit this document to include your answers after each question. Make sure to lea
     The main difference between the two is how they are rendered on the screen in relavance to spacing. "display: inline;" does not take up its own space, and does not start a new line for itself. It only takes up as much space as it needs. "display: block;" on the other hand, starts a new line for itself and takes up the entire width of it's parent container unless an alternative width or sizing is given to it. 
 
 3. What are the 4 areas of the box model?
+    1) The content area - the area of the actual content in the box (text/image)
+    2) border - size of the border around the content
+    3) padding - space between the content and the border
+    4) margin -space outside of the border, between the border and the next element/box
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The cross axis. 
 
 5. Explain why git is valuable to a team of developers.
+    Git is a version control software that allows developeres to save their work at different breakpoints. This is important as it allows a developer to move back and forth within their saves, to different "versions" of their code. If they try something and it does not work, they can rever back to a previous version before their changes were made. This is valuable because it saves them time as they do not have to remember how their code was before. Without version control, a developer might have to re-type and manually undo any changes they make, where as with git, they can simply go back to an earlier version which saves them alot of time and effort. Version control also allows for documentation of changes made throughout a time line, and developers can see when and what was implemented. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
