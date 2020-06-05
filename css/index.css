@@ -104,6 +104,47 @@ section#banner-img img {
     background-color: dodgerblue;
 }
 
+section.about {
+    padding: 0 1.3rem 1rem;
+    border-bottom: 1px dashed black;
+}
+
+#learn-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+#learn-more div {
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 3.5rem;
+}
+
+#learn-more div img {
+    width: 100%;
+}
+
+#learn-more h2 {
+    margin-top: .5rem;
+}
+
+#learn-more a {
+    display: inline-block;
+    border: 2px solid black;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 1rem 0;
+}
+
+#about-bottom {
+    padding: 0 1.3rem 3rem;
+}
+
+
 ol, ul {
 	list-style: none;
 }
