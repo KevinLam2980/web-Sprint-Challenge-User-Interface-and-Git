@@ -33,25 +33,33 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is hyper-text markup language that gives meaning and context to the elements within the website and document, which allows the browser and other developers to be able to tell what everything on the screen is supposed to represent. Such as, what is the main purpose of the webpage, which might be stated as an H1 element, or what is an image, what is a sub header, and different sections of the screen. Semantic HTML helps to label all the elements so that screen readers are able to tell people who might have difficulties with seeing, what each item is. Semantic markup also helps with search optimization, which helps search engines like google display your webpage when certain keywords match with certain items in your webpage, such as the h1. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    The main difference between the two is how they are rendered on the screen in relavance to spacing. "display: inline;" does not take up its own space, and does not start a new line for itself. It only takes up as much space as it needs. "display: block;" on the other hand, starts a new line for itself and takes up the entire width of it's parent container unless an alternative width or sizing is given to it. 
 
 3. What are the 4 areas of the box model?
+    1) The content area - the area of the actual content in the box (text/image)
+    2) border - size of the border around the content
+    3) padding - space between the content and the border
+    4) margin -space outside of the border, between the border and the next element/box
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The cross axis. 
 
 5. Explain why git is valuable to a team of developers.
+    Git is a version control software that allows developeres to save their work at different breakpoints. This is important as it allows a developer to move back and forth within their saves, to different "versions" of their code. If they try something and it does not work, they can rever back to a previous version before their changes were made. This is valuable because it saves them time as they do not have to remember how their code was before. Without version control, a developer might have to re-type and manually undo any changes they make, where as with git, they can simply go back to an earlier version which saves them alot of time and effort. Version control also allows for documentation of changes made throughout a time line, and developers can see when and what was implemented. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -69,30 +77,30 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [x] Build the HTML and CSS to create the missing navigation and header.
+* [x] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [x] box1: `teal`
+* [x] box2: `gold`
+* [x] box3: `cadetblue`
+* [x] box4: `coral`
+* [x] box5: `crimson`
+* [x] box6: `forestgreen`
+* [x] box7: `darkorchid`
+* [x] box8: `hotpink`
+* [x] box9: `indigo`
+* [x] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [x] Copy and paste your home page navigation and header into the about page
+* [x] Update the header image with the about page image
+* [x] Link the `Home` navigation item back to the `index.html` page.
+* [x] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
